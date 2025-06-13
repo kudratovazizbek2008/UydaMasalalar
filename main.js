@@ -41,32 +41,18 @@
 //     document.getElementById("welcome").innerHTML = "Xush kelibsiz, Odil!"
 // }
 
-//  4-masala
-// let div = document.getElementById("buttons");
-// const colors = ["qizil", "yashil", "ko'k"];
-// colors.forEach(btn_color => {
-//     let button = document.createElement("button");
-//     button.style.width = "50px"
-//     button.style.height = "50px";
-//     button.innerHTML = "bosing"
-//     button.style.marginLeft = "10px";
-//     button.addEventListener("click", () => {
-//         alert(btn_color)
-//     })
-//     div.appendChild(yangi_div);
-// })
 
-// 6-masala
-// let div = document.getElementById("cards");
-// let books = [
-//     {title: "JavaScript Asoslari", author: "Hasan"},
-//     {title: "React Darslari", author: "Ali"}
-// ]
-// books.forEach(book => {
-//     let div_two = document.createElement("div");
-//     div_two.innerHTML = `<p>${book.title}</p>  <p>${"Mualifi: " + book.author}</p>`;
-//     div.appendChild(div_two)
-// })
+let div = document.getElementById("cards");
+let books = [
+    {title: "JavaScript Asoslari", author: "Hasan"},
+    {title: "React Darslari", author: "Ali"}
+]
+books.forEach(book => {
+    let div_two = document.createElement("div");
+    div_two.innerHTML = `<p>${book.title}</p>  <p>${"Mualifi: " + book.author}</p>`;
+    div.appendChild(div_two)
+})
+console.log(div)
 
 // 7-masala
 // let div = document.getElementById("product")
